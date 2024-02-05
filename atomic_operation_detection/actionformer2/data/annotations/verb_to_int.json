@@ -1,0 +1,12 @@
+{
+    "take": 0, 
+    "put": 1, 
+    "press": 2, 
+    "release": 3, 
+    "eject": 4, 
+    "open": 5, 
+    "close": 6, 
+    "insert": 7, 
+    "detach": 8, 
+    "shake": 9
+}

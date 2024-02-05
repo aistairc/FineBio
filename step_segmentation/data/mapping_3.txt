@@ -1,0 +1,11 @@
+0 transfer_sample_to_8_tube_stripes
+1 transfer_pcrmix_to_8_tube_stripes
+2 transfer_forward_primer_to_8_tube_stripes
+3 transfer_reverse_primer_to_8_tube_stripes
+4 transfer_template_dna_to_8_tube_stripes
+5 transfer_water_to_8_tube_stripes
+6 close_8_tube_stripes_lid
+7 vortex_8_tube_stripes
+8 spindown_8_tube_stripes
+9 load_8_tube_stripes_to_pcr_machine
+10 background

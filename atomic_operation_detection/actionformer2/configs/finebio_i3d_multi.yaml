@@ -1,0 +1,49 @@
+dataset_name: finebio
+train_split: ['train']
+val_split: ['test']
+model_name: "MultiPredictionLocPointTransformer"
+dataset: {
+  json_file: data/annotations/annotation_all.json,
+  feat_folder: data/finebio_rgbflow_features,
+  file_prefix: ~,
+  file_ext: .npy,
+  type_names: ["verb", "manipulated", "affected"],
+  hands: [],
+  input_dim: 2048,
+  feat_stride: 4,
+  num_frames: 16,
+  # serve as data augmentation
+  trunc_thresh: 0.3,
+  crop_ratio: [0.9, 1.0],
+  max_seq_len: 3328
+}
+model: {
+  fpn_type: identity,
+  regression_range: [[0, 4], [2, 8], [4, 16], [8, 32], [16, 64], [32, 10000]],
+  max_buffer_len_factor: 4.0,
+  n_mha_win_size: 9,
+}
+opt: {
+  learning_rate: 0.0001,
+  epochs: 80,
+  weight_decay: 0.05,
+}
+loader: {
+  batch_size: 2,
+}
+train_cfg: {
+  init_loss_norm: 250,
+  clip_grad_l2norm: 1.0,
+  cls_prior_prob: 0.01,
+  center_sample: radius,
+  center_sample_radius: 1.5,
+  label_smoothing: 0.1,
+}
+test_cfg: {
+  pre_nms_topk: 5000,
+  max_seg_num: 2000,
+  min_score: 0.001,
+  nms_sigma: 0.4,
+  multiclass_nms: True,
+}
+output_folder: outputs/multi

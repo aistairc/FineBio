@@ -1,0 +1,11 @@
+0 spindown
+1 aspirate_supernatant
+2 add_magnetic_beads
+3 pipetting
+4 vortex
+5 place_in_magnetic_rack
+6 add_wash_buffer
+7 add_70pct_ethanol
+8 add_sterile_water
+9 transfer_supernatant_to_empty_tube
+10 background

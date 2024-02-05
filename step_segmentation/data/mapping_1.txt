@@ -1,0 +1,9 @@
+0 remove_culture_medium
+1 add_pbs
+2 shake_plate
+3 aspirate_pbs
+4 add_cell_lystate
+5 transfer_cell_lystate_to_tube
+6 spindown
+7 aspirate_supernatant
+8 background

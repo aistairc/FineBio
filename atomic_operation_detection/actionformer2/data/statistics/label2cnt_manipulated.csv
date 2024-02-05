@@ -1,0 +1,11 @@
+subset,type_name,left_hand,right_hand,blue_pipette,yellow_pipette,red_pipette,8_channel_pipette,blue_tip,yellow_tip,red_tip,8_channel_tip,blue_tip_rack,yellow_tip_rack,red_tip_rack,8_channel_tip_rack,50ml_tube,15ml_tube,micro_tube,8_tube_stripes,8_tube_stripes_lid,50ml_tube_rack,15ml_tube_rack,micro_tube_rack,8_tube_stripes_rack,8_tube_stripes_rack_lid,cell_culture_plate,cell_culture_plate_lid,trash_can,centrifuge,vortex_mixer,magnetic_rack,pcr_machine,tube_with_spin_column,spin_column,tube_without_lid,pen,none
+all,manipulated,0,0,6207,13837,2935,3243,68,114,14,0,831,1479,154,363,916,0,8130,2357,1678,281,0,8,20,0,1846,1307,2,1697,0,122,0,1996,397,179,478,0
+train,manipulated,0,0,4350,10327,2100,2330,68,114,14,0,621,1066,114,271,631,0,5892,1700,1199,185,0,4,17,0,1261,943,2,1235,0,86,0,1534,301,126,450,0
+train,left_manipulated,0,0,308,1287,70,204,34,45,6,0,523,845,92,217,491,0,3318,744,533,132,0,2,14,0,847,637,2,374,0,81,0,709,114,60,165,0
+train,right_manipulated,0,0,4042,9040,2030,2126,34,69,8,0,98,221,22,54,140,0,2574,956,666,53,0,2,3,0,414,306,0,861,0,5,0,825,187,66,285,0
+test,manipulated,0,0,1205,1640,440,442,0,0,0,0,103,169,14,56,143,0,1140,425,266,46,0,2,1,0,307,221,0,274,0,21,0,248,60,31,6,0
+test,left_manipulated,0,0,16,10,0,0,0,0,0,0,70,138,8,40,57,0,853,195,102,46,0,0,0,0,228,167,0,137,0,21,0,102,20,19,4,0
+test,right_manipulated,0,0,1189,1630,440,442,0,0,0,0,33,31,6,16,86,0,287,230,164,0,0,2,1,0,79,54,0,137,0,0,0,146,40,12,2,0
+valid,manipulated,0,0,652,1870,395,471,0,0,0,0,107,244,26,36,142,0,1098,232,213,50,0,2,2,0,278,143,0,188,0,15,0,214,36,22,22,0
+valid,left_manipulated,0,0,0,0,0,0,0,0,0,0,103,240,22,33,113,0,877,90,109,46,0,0,2,0,192,132,0,101,0,15,0,103,14,8,2,0
+valid,right_manipulated,0,0,652,1870,395,471,0,0,0,0,4,4,4,3,29,0,221,142,104,4,0,2,0,0,86,11,0,87,0,0,0,111,22,14,20,0

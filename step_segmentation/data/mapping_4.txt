@@ -1,0 +1,11 @@
+0 spindown
+1 vortex
+2 add_binding_buffer
+3 add_70pct_ethanol
+4 transfer_sample_tube_to_spin_column_tube
+5 dispense_solution
+6 detach_spin_column_and_insert_to_new_tube
+7 add_extract
+8 dispense_spin_column
+9 add_wash_buffer
+10 background
