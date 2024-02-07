@@ -1,6 +1,6 @@
-# FineBio: A Fine-Grained Video Dataset of Biological Experiments with Hierarchical Annotations
+# FineBio: A Fine-Grained Video Dataset of Biological Experiments with Hierarchical Annotation
 
-This repository includes the download instuction and the code for the paper [FineBio: A Fine-Grained Video Dataset of Biological Experiments with Hierarchical Annotations](https://arxiv.org/abs/2402.00293). 
+This repository includes the download instuction and the code for the paper [FineBio: A Fine-Grained Video Dataset of Biological Experiments with Hierarchical Annotation](https://arxiv.org/abs/2402.00293). 
 
 ![teaser_v2](https://github.com/aistairc/FineBio/assets/6857543/642def1e-34b5-46df-bb33-22d7ae2c7c56)
 
