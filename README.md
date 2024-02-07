@@ -74,7 +74,7 @@ If you find any problem, please report to Takuma Yagi (takuma.yagi[at]aist.go.jp
 Please cite our work if you have used our data or code:
 ```
 @article{yagi2024finebio,
-  title={Finebio: a fine-grained video dataset of biological experiments with hierarchical annotations},
+  title={Finebio: a fine-grained video dataset of biological experiments with hierarchical annotation},
   author={Yagi, Takuma and Ohashi, Misaki and Huang, Yifei and Furuta, Ryosuke and Adachi, Shungo and Mitsuyama, Toutai and Sato, Yoichi},
   year={2024},
   journal={arXiv preprint arXiv:2402.00293},
