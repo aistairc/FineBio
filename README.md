@@ -11,6 +11,8 @@ Please sign to the [license agreement](https://finebio.s3.abci.ai/FineBio_Licens
 
 Link to the dataset and required credentials will be sent by e-mail after approval.
 
+**24/09/12 Update: The object detection annotation (finebio_coco_annotations.zip) has been updated because there were missing annotation. Please re-download it if you are using the older version.**
+
 ## Dataset
 
 ### Name convention
