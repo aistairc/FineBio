@@ -7,7 +7,7 @@ This repository includes the download instuction and the code for the paper [Fin
 ## Download
 Usage is limited to non-commercial research/development use.
 Users need to sign the license form to access the videos, metadata and annotation. 
-Please sign to the [license agreement](https://finebio.s3.abci.ai/FineBio_License_Agreement.pdf) and submit via [this form](https://forms.gle/Ts64vrG6n2i1fEWCA).
+Please sign to the [license agreement](FineBio_License_Agreement.pdf) and submit via [this form](https://forms.gle/Ts64vrG6n2i1fEWCA).
 
 Link to the dataset and required credentials will be sent by e-mail after approval.
 
