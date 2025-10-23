@@ -1,6 +1,6 @@
 # FineBio: A Fine-Grained Video Dataset of Biological Experiments with Hierarchical Annotation
 
-This repository includes the download instuction and the code for the paper [FineBio: A Fine-Grained Video Dataset of Biological Experiments with Hierarchical Annotation](https://arxiv.org/abs/2402.00293). 
+This repository includes the download instuction and the code for the paper [FineBio: A Fine-Grained Video Dataset of Biological Experiments with Hierarchical Annotation (IJCV, 2025)](https://link.springer.com/article/10.1007/s11263-025-02523-2). 
 
 ![teaser_v2](https://github.com/aistairc/FineBio/assets/6857543/642def1e-34b5-46df-bb33-22d7ae2c7c56)
 
@@ -75,11 +75,13 @@ If you find any problem, please report to Takuma Yagi (takuma.yagi[at]aist.go.jp
 ## Citation
 Please cite our work if you have used our data or code:
 ```
-@article{yagi2024finebio,
-  title={Finebio: a fine-grained video dataset of biological experiments with hierarchical annotation},
+@article{yagi2025finebio,
+  title={Finebio: A fine-grained video dataset of biological experiments with hierarchical annotation},
   author={Yagi, Takuma and Ohashi, Misaki and Huang, Yifei and Furuta, Ryosuke and Adachi, Shungo and Mitsuyama, Toutai and Sato, Yoichi},
-  year={2024},
-  journal={arXiv preprint arXiv:2402.00293},
+  journal={International Journal of Computer Vision},
+  pages={1--16},
+  year={2025},
+  publisher={Springer}
 }
 ```
 
