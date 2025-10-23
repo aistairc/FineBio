@@ -79,7 +79,8 @@ Please cite our work if you have used our data or code:
   title={Finebio: A fine-grained video dataset of biological experiments with hierarchical annotation},
   author={Yagi, Takuma and Ohashi, Misaki and Huang, Yifei and Furuta, Ryosuke and Adachi, Shungo and Mitsuyama, Toutai and Sato, Yoichi},
   journal={International Journal of Computer Vision},
-  pages={1--16},
+  volume={133},
+  pages={7352--7367},
   year={2025},
   publisher={Springer}
 }
