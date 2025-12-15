@@ -36,24 +36,24 @@ Please refer to the README for each benchmark for details.
 ### Step segmentation
 | Backbone  | Model |  Acc  | Edit | F1@10 | F1@25 | F1@50 | F1@75 | Weights | 
 | ------------- | ------------- | ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |
-| I3D | MS-TCN++ |90.2|96.7|97.4|96.7|93.5|73.4| [Link](https://finebio.s3.abci.ai/ckpts/mstcn.model) |
-| I3D | ASFormer |87.2|94.8|94.2|92.7|86.5|67.0| [Link](https://finebio.s3.abci.ai/ckpts/asformer.model) |
+| I3D | MS-TCN++ |90.2|96.7|97.4|96.7|93.5|73.4| [Link](https://drive.google.com/file/d/1NJuknH0mqhbSzReoZcGY5XNcuoBi-H9V/view?usp=sharing) |
+| I3D | ASFormer |87.2|94.8|94.2|92.7|86.5|67.0| [Link](https://drive.google.com/file/d/1IbqCE36pJ2d5qT8loc2SX4PkrWzIc6U-/view?usp=sharing) |
 
 ### Atomic Operation Detection
 | Backbone  | Model | mAP@0.3 |0.4|0.5|0.6|0.7|Avg.| Weights | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| I3D | ActionFormer　(multi-head + set classification) |45.2|41.7|36.5|28.4|18.7|34.1| [Link](https://finebio.s3.abci.ai/ckpts/actionformer.pth.tar) |
+| I3D | ActionFormer　(multi-head + set classification) |45.2|41.7|36.5|28.4|18.7|34.1| [Link](https://drive.google.com/file/d/1nza8B-_0A1LGIw41FBPR9bPhYcMsGf7x/view?usp=sharing) |
 
 ### Object Detection
 | Model | AP | AP50 | AP\_manipulated | AP\_affected | Weights |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| DINO | 53.3 | 77.4 | 55.9 | 51.6 | [Link](https://finebio.s3.abci.ai/ckpts/dino.pth) |
-| Deformable DETR | 56.1 | 78.5 | 64.0 | 58.8 | [Link](https://finebio.s3.abci.ai/ckpts/deformable-detr.pth) |
+| DINO | 53.3 | 77.4 | 55.9 | 51.6 | [Link](https://drive.google.com/file/d/1VseplD0tPLJ89mzD5IGbCa16_gooNqXy/view?usp=sharing) |
+| Deformable DETR | 56.1 | 78.5 | 64.0 | 58.8 | [Link](https://drive.google.com/file/d/1U390LjTByULtgD6XlecWrHPAlU9AjH_W/view?usp=sharing) |
 
 ### Manipulated/Affected Object Detection
 |    | Hand | H + Manipulated | H + M + Affected | Weights |
 | ------------- | ------------- | ------------- | -------------| -------------|
-| Left Hand | 96.8 | 6.5 | 5.9 | [Link](https://finebio.s3.abci.ai/ckpts/handobj_checkpoint_e5.pth) |
+| Left Hand | 96.8 | 6.5 | 5.9 | [Link](https://drive.google.com/file/d/1Y2UZFY2Mukwkxk8MshgbGoGreIRafazC/view?usp=sharing) |
 | Right Hand | 94.5 | 22.2 | 10.7 | |
 
 ### Previous methods used in the implementation
